@@ -48,10 +48,10 @@ public class Main {
         System.out.println("The smallest numbers are: " + min1 + " and " +min2);
     }
     private static void exerciseThree() {
-        System.out.println("Exercise 3");
-
         int x = 5, y = 6;
         double  result;
+
+        System.out.println("Exercise 3");
 
         result = Math.pow(x , 2) + Math.pow(((4 * y)/5 - x), 2);
 
