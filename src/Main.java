@@ -49,8 +49,7 @@ public class Main {
         System.out.println("The smallest numbers are: " + min1 + " and " +min2);
     }
     private static void exerciseThree() {
-        double x = 5, y = 6;
-        double  result;
+        double x = 5, y = 6, result;
 
         System.out.println("Exercise 3");
 
