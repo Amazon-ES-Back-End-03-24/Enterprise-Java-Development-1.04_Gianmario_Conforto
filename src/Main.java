@@ -51,10 +51,10 @@ public class Main {
         System.out.println("Exercise 3");
 
         int x = 5, y = 6;
-        double  resultado;
+        double  result;
 
-        resultado = Math.pow(x , 2) + Math.pow(((4 * y)/5 - x), 2);
+        result = Math.pow(x , 2) + Math.pow(((4 * y)/5 - x), 2);
 
-        System.out.println("The reult is: " + resultado);
+        System.out.println("The result is: " + result);
     }
 }
