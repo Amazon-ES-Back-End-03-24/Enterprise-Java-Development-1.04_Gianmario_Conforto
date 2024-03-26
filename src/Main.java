@@ -5,8 +5,9 @@ public class Main {
 
         exerciseOne();
         exerciseTwo();
-
+        exerciseThree();
     }
+
     private static void exerciseOne() {
         int[] numbers = {-1, 5, 12, -15, 20, 35, -5};
         int maxnum = 0, minnum = 0;
@@ -20,9 +21,9 @@ public class Main {
 
             if (numbers[i] < minnum)
                 minnum = numbers[i];
-
-            difference = maxnum - minnum;
         }
+
+        difference = maxnum - minnum;
 
         System.out.println("The difference is: " + difference);
     }
@@ -46,7 +47,14 @@ public class Main {
         }
         System.out.println("The smallest numbers are: " + min1 + " and " +min2);
     }
+    private static void exerciseThree() {
+        System.out.println("Exercise 3");
 
+        int x = 5, y = 6;
+        double  resultado;
 
+        resultado = Math.pow(x , 2) + Math.pow(((4 * y)/5 - x), 2);
 
+        System.out.println("The reult is: " + resultado);
+    }
 }
