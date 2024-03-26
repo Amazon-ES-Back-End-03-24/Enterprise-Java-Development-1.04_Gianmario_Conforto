@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.util.Arrays;
 
 public class Main {
@@ -48,7 +49,7 @@ public class Main {
         System.out.println("The smallest numbers are: " + min1 + " and " +min2);
     }
     private static void exerciseThree() {
-        int x = 5, y = 6;
+        double x = 5, y = 6;
         double  result;
 
         System.out.println("Exercise 3");
